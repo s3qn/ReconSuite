@@ -20,6 +20,8 @@ options:
   -n, --no-recurse     Disable recursive WHOIS search
   -s, --server SERVER  WHOIS server to look at (example: whois.iana.org)
 ```
+**Things I learned** - Connect to a WHOIS socket using the socket module in python
+
 ### Word Extractor
 **extractor.py** - Simple tool to extract the most common word of a web page
 
