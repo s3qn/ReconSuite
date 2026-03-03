@@ -6,6 +6,7 @@ Most of the tools here will not be perfect as I am constantly improving my skill
 
 ## List of Tools
 
+### WhoIS Record Extractor
 **whois.py** - Simple tool that connects to iana's whois protocol (port 43) and extracts the records for the domain. theres an extra feature to recurse and find extra whois portals that will give a better result.
 
 ```
@@ -19,6 +20,6 @@ options:
   -n, --no-recurse     Disable recursive WHOIS search
   -s, --server SERVER  WHOIS server to look at (example: whois.iana.org)
 ```
-
+### Word Extractor
 **extractor.py** - Simple tool to extract the most common word of a web page
 
